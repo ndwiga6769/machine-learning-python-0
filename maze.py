@@ -1,9 +1,15 @@
 import sys
 from PIL import Image
 
-
-class Node():
+# The selected code defines the class 
+# constructor method for the Node class.
+# The constructor takes three arguments: 
+# state, parent, and action.
+class Node():    
     def __init__(self, state, parent, action):
+
+
+        
         self.state = state
         self.parent = parent
         self.action = action
